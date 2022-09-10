@@ -1,0 +1,45 @@
+body {
+  border: solid 3px teal;
+  width: 700px;
+}
+
+header {
+  border: solid 5px rebeccapurple;
+  background-color: #e36414;
+}
+.card-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: space-evenly;
+}
+
+.paragraph-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+main {
+  border: solid 10px magenta;
+  background-color: #fb8b24;
+}
+
+section {
+  border: solid 3px gold;
+}
+
+.card {
+  border: solid 2px pink;
+}
+
+p {
+  border: solid 3px silver;
+}
+
+span {
+  border: solid 2px blue;
+}
